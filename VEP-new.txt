@@ -1,4 +1,3 @@
-[Please remove everything up to and including this line]
 Vocabulary: http://www.ivoa.net/rdf/
 Author: gilles.landais@unistra.fr
 Date: 2022-12-15
@@ -6,10 +5,8 @@ Date: 2022-12-15
 New Term: References
 Action: Addition 
 Label: references
-Description: relationship type to indicate a resource B used as a source of
-   information for A.
+Description: This resource used the related resource as a source of information.
 
-Relationships: 
 Used-in: The registry record ivo://edu.gavo.org/hd/gavo_addpms (and most
   other IVOA document records; cf.
   <http://dc.zah.uni-heidelberg.de/wirr/q/ui/fixed?field0=restype&operator0=%3D&operand0=doc%3Adocument>)
