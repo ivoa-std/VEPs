@@ -1,0 +1,23 @@
+Vocabulary: http://www.ivoa.net/rdf/product-type
+Author: Vincenzo Galluzzi <vincenzo.galluzzi@inaf.it>
+Date: 2023-11-13
+
+New Term: spatial-profile
+Action: Addition
+Label: Spatial Profile
+Description: An observable obtained along a one-dimensional path.
+Relationships: narrower than #spatially-resolved-dataset
+Used-in: TBD
+
+Rationale:
+Spatial profiles are commonly used in single-dish radio observations,
+where a cross of about five beams centered on the target object is
+scanned for computing flux backgrounds or pointing
+corrections.  Other profiles used in radio astronomy scan over elevation
+to create opacity corrections.
+
+Another case for spatial-profile would be when a planetary probe takes
+measurements along its flight path.  Both sorts of data products clearly
+need discovery modes of their own because they have analysis modes
+rather distinct from other data product types.  Whether the different
+sorts of profiles need further separation remains to be seen in usage.
