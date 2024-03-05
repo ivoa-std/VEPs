@@ -1,9 +1,9 @@
-Vocabulary: http://www.ivoa.net/rdf/
+Vocabulary: http://www.ivoa.net/rdf/voresource/relationship_type
 Author: gilles.landais@unistra.fr
 Date: 2022-12-15
 
 New Term: References
-Action: Addition 
+Action: Addition
 Label: references
 Description: This resource used the related resource as a source of information.
 
@@ -11,13 +11,13 @@ Used-in: The registry record ivo://edu.gavo.org/hd/gavo_addpms (and most
   other IVOA document records; cf.
   <http://dc.zah.uni-heidelberg.de/wirr/q/ui/fixed?field0=restype&operator0=%3D&operand0=doc%3Adocument>)
 
-Rationale: This term is proposed to replace the deprecated term "related-to" 
-  in the registry relationships. In VizieR, "related-to" refers VO resources 
+Rationale: This term is proposed to replace the deprecated term "related-to"
+  in the registry relationships. In VizieR, "related-to" refers VO resources
   which are linked by their biliographic references.
 
   For instance, a VizieR catalogue V is attached to a bibliographic reference.
-  This article includes in the section "References" citations to other 
+  This article includes in the section "References" citations to other
   articles A1, A2, ... some of them have a VizieR catalogue V1,V2,...
   The proposed relation makes the relation between V and V1,V2,...
- 
+
   "References"  is a term used in DataCite schema.
