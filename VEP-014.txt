@@ -5,7 +5,7 @@ Date: 2023-11-13
 New Term: spatial-profile
 Action: Addition
 Label: Spatial Profile
-Description: An observable obtained along a one-dimensional path.
+Description: An observable obtained along a one-dimensional spatial path.
 Relationships: narrower than #spatially-resolved-dataset
 Used-in: TBD
 
