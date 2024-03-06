@@ -5,19 +5,24 @@ Date: 2023-11-13
 New Term: spatial-profile
 Action: Addition
 Label: Spatial Profile
-Description: An observable obtained along a one-dimensional path.
+Description: An observable obtained along a one-dimensional spatial path.
 Relationships: narrower than #spatially-resolved-dataset
 Used-in: TBD
 
 Rationale:
-Spatial profiles are commonly used in single-dish radio observations,
-where a cross of about five beams centered on the target object is
-scanned for computing flux backgrounds or pointing
-corrections.  Other profiles used in radio astronomy scan over elevation
-to create opacity corrections.
-
+Single dish radio observations where a cross-shaped scan is executed on
+a target object are commonly performed for flux measurements or pointing
+correction calculations, and are best described as a spatial profile.
+Typically, the spatial length of each arm of the cross is larger than
+the spatial resolution to allow for a proper background subtraction.
+Other radio observations (usually performed at high frequency) that can be described as spatial profiles
+are elevation scans on the empty sky executed to calculate opacity
+corrections.
 Another case for spatial-profile would be when a planetary probe takes
-measurements along its flight path.  Both sorts of data products clearly
-need discovery modes of their own because they have analysis modes
-rather distinct from other data product types.  Whether the different
-sorts of profiles need further separation remains to be seen in usage.
+measurements along its flight path.
+
+Such observational data need a dedicated term for their discovery
+because they have calibration, processing and analysis modes rather
+distinct from other data product types.
+However, further differentiation among various types of profiles may be considered if
+additional use cases are formulated.
