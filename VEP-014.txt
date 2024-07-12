@@ -7,7 +7,7 @@ Action: Addition
 Label: Spatial Profile
 Description: An observable obtained along a one-dimensional spatial path.
 Relationships: narrower than #spatially-resolved-dataset
-Used-in: TBD
+Used-in: http://radioarchive.inaf.it/
 
 Rationale:
 Single dish radio observations where a cross-shaped scan is executed on
@@ -15,14 +15,25 @@ a target object are commonly performed for flux measurements or pointing
 correction calculations, and are best described as a spatial profile.
 Typically, the spatial length of each arm of the cross is larger than
 the spatial resolution to allow for a proper background subtraction.
-Other radio observations (usually performed at high frequency) that can be described as spatial profiles
-are elevation scans on the empty sky executed to calculate opacity
-corrections.
-Another case for spatial-profile would be when a planetary probe takes
-measurements along its flight path.
+Other radio observations (usually performed at high frequency) that can
+be described as spatial profiles are elevation scans on the empty sky
+executed to calculate opacity corrections.  Another case for
+spatial-profile would be when a planetary probe takes measurements along
+its flight path.
 
 Such observational data need a dedicated term for their discovery
 because they have calibration, processing and analysis modes rather
-distinct from other data product types.
-However, further differentiation among various types of profiles may be considered if
+distinct from other data product types.  However, further
+differentiation among various types of profiles may be considered if
 additional use cases are formulated.
+
+Discussion:
+
+	The reaction to http://mail.ivoa.net/pipermail/radioig/2024/000108.html
+	were favourable.  There was a question whether, for instance, slit
+	spectra ought to count as spatial profiles; but nobody wanted to
+	champion this, and it seems sufficiently doubtful that the creation
+	of such a relationship can wait until we have gathered experience on
+	whether that might be useful.
+
+	The new term was approved by the TCG on 2024-05-19.
