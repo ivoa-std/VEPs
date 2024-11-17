@@ -1,0 +1,27 @@
+Vocabulary: http://www.ivoa.net/rdf/refframe
+Author: Markus Demleitner <msdemlei@ari.uni-heidelberg.de> and J.J. Kavelaars
+Date: 2024-11-17
+
+New Term: geo_app
+Action: Modification
+Label: Geocentric Apparent Positions
+Description: Positions given as observed by a fictitious observer at the
+	Earth’ s centre for the equator of observation.
+Relationships: narrower than #EQUATORIAL
+Used-in: VOTable legacy
+
+Rationale:
+When the legacy VOTable terms were added to the refframe vocabulary
+(which was necessary to keep validity criteria when VOTable changed
+COOSYS/@system to being controlled by this vocabulary), nobody rememberd
+what geo_app might have meant.  It recently turned out that it must
+have been “Geocentric Apparent”, a frame used primarly in geodesy and
+solar system science.  It is documented to some extent in
+https://starlink.eao.hawaii.edu/docs/sun211.htx/sun211ss454.html.
+
+This VEP replaces label, description, and relationship for the concept.
+At this point, this is a deprecated concept, and since it is mixing
+refposition and frame ("geocentre" vs. "apparent positions at equator of
+epoch"), we quite certainly won't want anyone to use it.  We still want
+to update the concept metadata and hence ask for exemption from the
+“must be used somewhere” rule.
