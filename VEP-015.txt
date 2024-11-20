@@ -21,3 +21,11 @@ Rationale: This term is proposed to replace the deprecated term "related-to"
   The proposed relation makes the relation between V and V1,V2,...
 
   "References"  is a term used in DataCite schema.
+
+
+Discussion:
+	In the thread http://mail.ivoa.net/pipermail/registry/2024-March/005560.html
+	it was found that DataCite References does not say what we want here.
+
+	So, in http://mail.ivoa.net/pipermail/registry/2024-March/005573.html,
+	Gilles asked for this VEP to be abandoned.
