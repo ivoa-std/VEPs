@@ -25,3 +25,6 @@ refposition and frame ("geocentre" vs. "apparent positions at equator of
 epoch"), we quite certainly won't want anyone to use it.  We still want
 to update the concept metadata and hence ask for exemption from the
 “must be used somewhere” rule.
+
+Reference:
+- Calabretta and Greisen, AA, 2002, doi:10.1051/0004-6361:20021327
