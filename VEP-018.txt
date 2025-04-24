@@ -1,4 +1,4 @@
-Vocabulary: http://www.ivoa.net/rdf/event-bundle
+Vocabulary: http://www.ivoa.net/rdf/product-type
 Author: Mireille Louys for HEIG IG <mireille.louys@unistra.fr>
 Date: 2025-04-24
 
