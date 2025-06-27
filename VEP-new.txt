@@ -1,0 +1,44 @@
+Vocabulary: http://www.ivoa.net/rdf/product-type
+Author: msdemlei@ari.uni-heidelberg.de
+Date: 2025-06-05
+
+New Term: response-function
+Action: Addition
+Label: Response Function
+Description: A mapping between a physical quantity and an observable
+	quantity as for instance, the response of a CCD in the focal plane of
+	an instrument to the flux from a point source.
+Relationships:
+Used-in: As a parent of #psf
+
+New Term: psf
+Action: Addition
+Label: Point Spread Function
+Description: The distribution of detected particles emitted by a point
+	source for a given observation configuration.
+Relationships: narrower than response-function
+Used-in: Try
+	select top 20 * from ivoa.ObsCore where dataproduct_type='psf'
+  on the TAP service at <https://cda.cfa.harvard.edu/csc2tap>.
+
+New Term: arf
+Action: Addition
+Label: Ancillary Response File
+Description:  A 2D array giving for each pixel the effective area times
+	the quantum efficiency resulting from the combined
+	telescope/filter/detector areas averaged over the observation time.
+	This is generally dependent on the energies of the messenger particles
+	used.
+Relationships: narrower than response-function
+Used-in: Try
+	select top 20 * from ivoa.ObsCore where dataproduct_type='arf'
+  on the TAP service at <https://cda.cfa.harvard.edu/csc2tap>.
+
+Rationale:
+	#response-function-s need to be labelled as products in obscore
+	tables to make them discoverable independently of any particular
+	observation.  For instance, Chandra users have extracted a few sources
+	from the catalogue and now want to locate PSFs for the observations
+	that went into these sources.  They will be able to do that by
+	constraining dataproduct_type to psf and giving further constraints on
+	space, time, or energy.
