@@ -1,0 +1,24 @@
+Vocabulary: http://www.ivoa.net/rdf/product-type
+Author: baptiste.cecconi@obspm.fr
+Date: 2025-10-30
+
+Term: hyper-dynamic-spectrum
+Action: Addition
+Label: Hyper Dynamic Spectrum
+Description: A three-dimensional dataset extending a dynamic spectrum (a time axis and a spectral axis) 
+with a third relative temporal axis (usually a higher resolution time-series).
+Relationships: narrower than #dynamic-spectrum, narrower than #cube
+Used-in: ivoa.obscore table at http://vogate.obs-nancay.fr/tap
+Used-in: https://archives.esac.esa.int/psa/ftp/MARS-EXPRESS/MARSIS/MEX-M-MARSIS-3-RDR-AIS-EXT8-V1.0/
+
+Rationale:
+
+The new term is porposed by the Nancay and Orleans pulsar team to describe the pulsar basic datasets.
+They are composed of 2 dimensional arrays of relative time-series. The main axes are the time (either
+absolute times or periodic time) and a spectral axis. Each temporal and spectral sample is a 
+time-series. The same type of data layout exists for radar planetary radars, where each time and 
+frequency point is a time-series of the observed pulse echo. The Mars-Express/MARSIS/AIS dataset is 
+an example of such product type (although is it nos -yet- available in an obscore table).
+
+
+  
