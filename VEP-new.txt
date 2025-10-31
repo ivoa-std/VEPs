@@ -7,8 +7,8 @@ Action: Addition
 Label: Hyper Dynamic Spectrum
 Description: A three-dimensional dataset extending a dynamic spectrum (a time axis and a spectral axis) 
 with a third relative temporal axis (usually a higher resolution time-series).
-Relationships: skos:broader(dynamic-spectrum) skos:broader(cube)
-Used-in: http://vogate.obs-nancay.fr/__system__/dc_tables/show/tableinfo/fr606.obscore
+Relationships: narrower than #dynamic-spectrum, narrower than #cube
+Used-in: ivoa.obscore table at http://vogate.obs-nancay.fr/tap
 Used-in: https://archives.esac.esa.int/psa/ftp/MARS-EXPRESS/MARSIS/MEX-M-MARSIS-3-RDR-AIS-EXT8-V1.0/
 
 Rationale:
