@@ -1,0 +1,11 @@
+Vocabulary: http://www.ivoa.net/rdf/ivoasem
+Author: elsa.david@obspm.fr
+Date: 2025-11-20
+
+Term: UCDSyntaxCode
+Action: Addition
+Label: UCD Syntax Code
+Description: The object of this property indicates what syntax code (P, Q, S, ect)is used for the UCD subject of this property
+
+Rationale: 
+this new term specify that a specific UCD has a UCD syntax as defined in https://ivoa.net/documents/UCD1+/20241218/EN-UCDlist-1.6-20241218.html and as discussed in https://github.com/ivoa-std/Vocabularies/pull/31. 
