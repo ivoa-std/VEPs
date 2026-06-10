@@ -31,3 +31,14 @@ In this case #this (the record in ObsCore) is an IFS cube. The
 progenitors are KMOS observations
 (https://www.eso.org/sci/facilities/paranal/instruments/kmos.html) as it
 appears in DataLink response.
+
+Discussion: There was quite a bit of back and forth on this, mainly
+circling around the question of whether #calibration was restricted
+to or only meant calibration that is applicable or that was applied.
+This happened mainly in a thread on VEP-006,
+http://mail.ivoa.net/pipermail/dal/2021-October/008466.html.
+After VEP-006 decided this towards only applicable calibration, we
+waited a while for someone who wanted  to distinguish "science"
+progenitors from "calibration" ones.  This has not happened until
+2026, and hence we decided to retire VEP-009 in consent with François.
+
