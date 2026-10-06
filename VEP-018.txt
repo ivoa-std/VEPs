@@ -13,9 +13,9 @@ Used-in: https://archives.esac.esa.int/psa/ftp/MARS-EXPRESS/MARSIS/MEX-M-MARSIS-
 
 Rationale:
 
-The new term is porposed by the Nancay and Orleans pulsar team to describe the pulsar basic datasets.
+The new term is proposed by the Nancay and Orleans pulsar team to describe the pulsar basic datasets.
 They are composed of 2 dimensional arrays of relative time-series. The main axes are the time (either
 absolute times or periodic time) and a spectral axis. Each temporal and spectral sample is a 
 time-series. The same type of data layout exists for radar planetary radars, where each time and 
 frequency point is a time-series of the observed pulse echo. The Mars-Express/MARSIS/AIS dataset is 
-an example of such product type (although is it nos -yet- available in an obscore table).
+an example of such product type (although is it not -yet- available in an obscore table).
